@@ -1,5 +1,19 @@
 require_relative "my_solution"
 
+
+
+
+def total(num)
+  sum = 0.0
+  num.reduce(:+)
+end
+
+def sentence_maker(sent)
+ str = " " 
+ str = sent.join(' ')
+ str.capitalize!+ "."
+end
+
 describe 'total' do
   let(:array_1) { [1, 2, 3, 4, 5, 5, 7] }
   let(:array_2) { [4, 4, 5, 5, 6, 6, 6, 7] }
