@@ -1,5 +1,8 @@
 require_relative "my_solution"
 
+
+
+
 describe 'mode' do
   let(:array_1) { [1, 2, 3, 4, 5, 5, 7] }
   let(:array_2) { [4, 4, 5, 5, 6, 6, 6, 7, 5] }
