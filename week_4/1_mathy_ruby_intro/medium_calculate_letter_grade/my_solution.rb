@@ -4,7 +4,7 @@
 # include it in this file. Also make sure everything that isn't code
 # is commented in the file.  
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge [by myself ].
 
 # 1. Pseudocode
 
@@ -15,6 +15,25 @@
 
 # 2. Initial Solution
 
+def get_grade (grades)
+	grades.reduce(:+) / grades.length
+	
+	puts grades.reduce(:+) / grades.length
+
+
+result = case grades
+	when grades >= then puts "A"
+	when grades >= 80 then"B"
+	when grades >= 70
+		return "C"
+	when grades >= 60
+		return "D"	
+	when grades < 90
+		return "F"
+	end
+
+	return result
+end
 
 
 
