@@ -14,6 +14,33 @@
 
 
 # 2. Initial Solution
+class Array 
+	def pad!(min, value = nil)
+		p self
+		puts self.size.to_s + " size of self"
+		p min.to_s + " size of min" 
+		puts value + " the value"
+		x = min - self.size
+		puts x.to_s + " the x value"
+
+		if self.size > min || min == 0
+			return self			
+		else
+			
+			x.times {self << value}
+			puts self.size.to_s + " new size" 
+			puts self.to_s + " looking at this line"
+			return self
+			
+		end
+
+	end
+
+	def pad(arr, value = nil)
+		self.clone.pad!(arr, value)
+	end
+end
+
 
 
 
