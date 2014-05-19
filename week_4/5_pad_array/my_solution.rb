@@ -14,8 +14,9 @@
 
 
 # 2. Initial Solution
+# having trouble with this solution so far i passed 7 of 9 tests.
 class Array 
-	def pad!(min, value = nil)
+	def pad!(min, value = "nil")
 		p self
 		puts self.size.to_s + " size of self"
 		p min.to_s + " size of min" 
@@ -36,7 +37,7 @@ class Array
 
 	end
 
-	def pad(arr, value = nil)
+	def pad(arr, value = "nil")
 		self.clone.pad!(arr, value)
 	end
 end
