@@ -62,5 +62,12 @@ end
 
 essay_writer("My favorite Movie", "Aladdin","May 13, 2014", "Should Aladdin be considered the best movie of all-time?", "Mr. Philips","Jasmine", "Jafar")
 
+# Reflecion
+#This challenge wasn’t too difficult. I worked with Kate La.  We made a template for an essay writer. 
+#Our template deals exclusively with disney movies. We had a little bit of trouble deciding the format 
+#we were going to use. We also had to look up how to use line breaks which we found to be ’\n’. I feel
+#pretty confident in the dependencies of this challenge.  I am started to get used to handling make methods
+#that take a parameter. 
+
 
 
