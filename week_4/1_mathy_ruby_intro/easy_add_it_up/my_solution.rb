@@ -5,7 +5,7 @@
 # is commented in the file.  
 
 # I worked on this challenge [by myself].
-# 
+# myself
 # 1. Pseudocode
 
 # What is the input? an array
