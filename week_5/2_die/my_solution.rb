@@ -34,8 +34,8 @@ class Die
   	if @labels.length == 1
   		puts "entering here"
   		@labels[0]
-  	else @labels.length >= 10000
-  		 @labels.sort!
+  	else 
+  		 @labels.sort
   		 @labels
   	end	
   end
@@ -43,8 +43,32 @@ end
 
 # 4. Refactored Solution
 
+=begin
 
+def initialize(labels)
+  	puts labels
+  	if labels.empty?
+  		raise ArgumentError, 'sides must be a positive number'
+  	else 
+  	@labels = labels
+  	end	
+  end
 
+  def sides
+  	@labels.length 
+  end
+
+  def roll
+  	if this.sides() == 1
+  		@labels[0]
+
+  	else @labels.length >= 10000
+  		 @labels.sort!
+  		 @labels
+  	end	
+  end
+end
+=end
 
 
 
