@@ -35,8 +35,8 @@ class Die
   		puts "entering here"
   		@labels[0]
   	else 
-  		 @labels.sort
-  		 @labels
+  		 @labels.sort.flatten
+  		
   	end	
   end
 end

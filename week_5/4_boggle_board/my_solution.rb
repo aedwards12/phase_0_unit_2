@@ -29,9 +29,12 @@ boggle_board = [["b", "r", "a", "e"],
 
 # Pseudocode
 
+
 # Initial Solution
 
-
+def elementsOfRow(row)
+	puts boggle_board[row][0] 
+end 
 # Refactored Solution
 
 
