@@ -114,4 +114,15 @@ p bakery_num(130, "pie") == "You need to make 16 pie(s), 0 cake(s), and 2 cookie
 # You SHOULD change this driver code. Why? Because it doesn't make sense.
 p bakery_num(41, "cake") == "You need to make 5 pie(s), 0 cake(s), and 1 cookie(s)." # WHAAAAAT? I thought I said I wanted cake!
  
+
+ # Reflect
+=begin
+This was my second time working with Steven on a gps challenge. This time around was much smoother than
+then the last time. I think we worked pretty well together. We pretty much finished the challenge
+in the alloted time. We took turns driving and navigating. There were parts of the code that he understood
+and there were parts of the code that I picked up on. Collectively we were able to effectively complete this challenge.
+I feel confident in all the competencies of this challenge. This was a good exercise to read to and understand code. 
+=end
+
+
  
