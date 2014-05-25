@@ -145,4 +145,15 @@ california = VirusPredictor.new("California", STATE_DATA["California"][:populati
 california.virus_effects
 
 alaska = VirusPredictor.new("Alaska", STATE_DATA["Alaska"][:population_density], STATE_DATA["Alaska"][:population], STATE_DATA["Alaska"][:region], STATE_DATA["Alaska"][:regional_spread]) 
-alaska.virus_effects=end
+alaska.virus_effects
+=end
+# Reflection
+
+=begin
+I worked with Michelle on this challenge. She was great because she was easy to work with and had good knowledge
+on how ruby private instances and methods worked. We worked well together and completed this challenge in an hour.
+We did not have to look online for any content in this challenge we pretty much knew how to do everything we wanted 
+  to do. I feel confident in the competencies of this challenge. I did not think anything was tedious.
+ =end
+
+
