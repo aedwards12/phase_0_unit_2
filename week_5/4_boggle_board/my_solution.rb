@@ -60,6 +60,7 @@ puts y.eql?  "The elements of row 2 are e, c, l, r."
 
 
 
+<<<<<<< HEAD
 #-------------------------------------------------------------------------------
 
 # Part 3: Now write a method that takes a column number and returns all the elements in the column.
@@ -91,3 +92,5 @@ puts y
 puts y.eql? "The elements of column 2 are a, d, l, k."
 
 # Reflection 
+=======
+>>>>>>> upstream/master
