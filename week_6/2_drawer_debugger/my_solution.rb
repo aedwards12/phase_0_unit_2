@@ -141,12 +141,18 @@ assert{
 assert{
 	silverware_drawer.add_item(Silverware.new("pot"))
 	silverware_drawer.add_item(Silverware.new("pan"))
-
 	silverware_drawer.contents.include?("pot")
 	silverware_drawer.contents.include?("pan")
 	#silverware_drawer.contents.to_a.include?("pot") 
 }
 
 
-
 # 5. Reflection 
+
+=begin
+I am still getting used to driver code. Im still not sure if i am doing it correctly. 
+I had a tough time trying to understand what exactly the challenge wanted for the bonus. 
+I believe i added the necessary methods to accomplish this task. I feel fairly confident with 
+the learning competencies of this taskt. I added some methods to test driver code. Im not sure 
+this is acceptable. 
+=end
