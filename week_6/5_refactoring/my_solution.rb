@@ -1,9 +1,10 @@
 # U2.W6: Refactoring for Code Readability
 
 
-# I worked on this challenge [by myself, with: ].
-
+# I worked on this challenge [ with: ].
+# Francisco Scala
 #Anthony Edwards Jr
+
 # Original Solution
 # forked from S-Loar on github
 
@@ -75,4 +76,12 @@ assert{
 
 
 # Reflection 
+=begin
+
+I worked with Francisco on this challenge. He is alittle behind but he knowlegde was still
+helpful in this challenge. We used Steven Loars code to analyze. It was really interesting to see
+how he completed this challenge. Compared to mine he completed his in way less steps using different methods
+I feel confident in the learning competences of this challenge. We did not need to look up anything online 
+to help complete this task. 
+=end
 

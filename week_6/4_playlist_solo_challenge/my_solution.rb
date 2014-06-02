@@ -6,6 +6,12 @@
 
 # Pseudocode
 
+=begin
+Create 2 classes: Song, Playlist
+add methods initialize, play  to class song
+add methods initialize, display, play_all, remove, add, num_of_tracks, includes
+=end
+
 
 
 # Initial Solution
@@ -100,7 +106,6 @@ class Playlist
 	end
 
 	def add (song1, song2)
-		#song.inject(0) { |number| @my_playlist << song}
 		@my_playlist << song1
 		@my_playlist << song2
 		@num_of_tracks += 2
@@ -139,8 +144,12 @@ p my_playlist.includes?(lying_from_you) == true
 my_playlist.play_all
 my_playlist.display
 
-
-
-
-
 # Reflection 
+=begin
+This challenge was good. I beleive there are ways to make my code more agile such as for the add method
+I should be able to add any number of arguments to the parameter and increase the num_of_tracks total. 
+Instead of hard coding it like i did. If I have time I will come back to it. I had a little trouble with 
+my thought process about handling objects inside a different class. I had to really think about what I was 
+actually doing. I feel confident in the learning competencies of this challenge.
+=end
+
